@@ -254,4 +254,8 @@ span {
     top: 0;
     right: 0;
   }
+
+  .clouddy {
+    display: none;
+  }
 }
