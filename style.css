@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "Franx";
+  src: url("./iamges/font/franxurter-totally/FranxurterTotallyFat-X3G4Z.ttf");
+}
+
+@font-face {
+  font-family: "Lazydog";
+  src: url("./iamges/font/lazydog-cdnfonts/lazy_dog.ttf");
+}
+
+h1,
+h4 {
+  font-family: "Franx";
+}
+
+p,
+span {
+  font-family: "Lazydog";
+}
+
+.img-11 {
+  width: 250px;
+  margin-top: -45px;
+}
+
+.img-10 {
+  width: 720px;
+  margin-top: -50px;
+}
+
+.img-9 {
+  width: 500px;
+  margin-top: -30px;
+}
+
+.para-image {
+  margin-top: -250px;
+  width: 90px;
+  transform: rotate(35deg); /* Rotate the image by 45 degrees */
+  display: inline-block; /* Ensure it respects layout */
+  transition: transform 0.3s ease; /* Optional: Smooth animation for hover effects */
+}
+
+.para {
+  font-size: 30px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.nut-img {
+  /* margin-top: 50px; */
+  width: 120px;
+  transform: rotate(120deg); /* Rotate the image by 45 degrees */
+  display: inline-block; /* Ensure it respects layout */
+  transition: transform 0.3s ease; /* Optional: Smooth animation for hover effects */
+}
+
+.abt-div {
+  position: relative;
+}
+
+.cloud-abt {
+  position: absolute;
+  width: 600px;
+  top: 6%;
+  right: 0%;
+}
+
+.pnut-abt {
+  position: absolute;
+  width: 230px;
+  max-width: 90%;
+  top: 10%;
+  right: 14%;
+}
+
+.stairs {
+  position: absolute;
+  width: 220px;
+  top: 60%;
+  right: 20%;
+}
+
+.tkn-div {
+  position: relative;
+}
+
+.throne {
+  position: absolute;
+  width: 330px;
+  top: 0%;
+  left: 12%;
+}
+
+.cloud-tkn {
+  position: absolute;
+  width: 300px;
+  top: 35%;
+  left: 12%;
+}
+
+.pnut-tkn {
+  position: absolute;
+  width: 280px;
+  top: 10%;
+  left: 10%;
+}
+
+.sol-net {
+  width: 70%;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 12px 30px;
+  border-radius: 300px;
+  border: 8px solid black;
+}
+
+.sol-net:hover {
+  background-color: rgb(255, 196, 0);
+  width: 68%;
+  font-size: 23px;
+  padding: 10px 26px;
+}
+
+.renounced {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 12px 30px;
+  border-radius: 300px;
+  border: 8px solid black;
+}
+
+.renounced:hover {
+  background-color: rgb(255, 196, 0);
+}
+
+.burned {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 12px 30px;
+  border-radius: 300px;
+  border: 8px solid black;
+}
+
+.burned:hover {
+  background-color: rgb(255, 196, 0);
+}
+
+.taxes {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 12px 30px;
+  border-radius: 300px;
+  border: 8px solid black;
+}
+
+.taxes:hover {
+  background-color: rgb(255, 196, 0);
+  width: 95%;
+  font-size: 23px;
+  padding: 10px 26px;
+}
+
+.buy-para {
+  font-size: 23px;
+  line-height: 55px;
+}
+
+.hwt-section {
+  position: relative;
+}
+
+.cloud {
+  position: absolute;
+  width: 685px;
+  top: 12%;
+  right: 29%;
+}
+
+.ape {
+  position: absolute;
+  width: 585px;
+  top: 15%;
+  right: 44%;
+}
+
+.pnut {
+  position: absolute;
+  width: 185px;
+  top: 24%;
+  right: 37%;
+}
+
+.caaa {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 12px 30px;
+  border-radius: 300px;
+  border: 8px solid black;
+}
+
+.caa-nut {
+  width: 100px;
+  transform: rotate(35deg); /* Rotate the image by 45 degrees */
+  display: inline-block; /* Ensure it respects layout */
+  transition: transform 0.3s ease; /* Optional: Smooth animation for hover effects */
+}
+
+.socials {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .caaa {
+    font-size: 13px;
+  }
+  .cloud-tkn {
+    display: none;
+  }
+  .cloud {
+    display: none;
+  }
+  .pnut-tkn {
+    display: none;
+  }
+  .throne {
+    display: none;
+  }
+
+  .popping-images {
+    display: none;
+  }
+
+  .stairs {
+    display: none;
+  }
+
+  .cloud-abt {
+    display: none;
+  }
+  .pnut-abt {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
